@@ -30,7 +30,9 @@ jobs:
       - name: Build with Maven
         run: |
           git clone --quiet https://github.com/PisanA/hello-world-test.git
-          ./hello-world-test/build-with-maven.py
+          cd hello-world-test
+          ls -al
+          python build-with-maven.py
 
     
   analysis:
