@@ -5,10 +5,11 @@ name: Hello World Test
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
 on: 
-  push:
-    paths:
+  [push, workflow_dispatch]
+  #push:
+  #  paths:
       # this workflow will only run if a .java file is pushed.
-      - '**.java'
+  #    - '**.java'
   
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -27,7 +28,8 @@ jobs:
           java-version: 1.8
       - name: Build with Maven
         run: |
-          git clone --quiet https://github.com/pisanA/hello-world-test.git
+          git clone https://github.com/pisanA/hello-world-test.git
+          ls -al
           ./hello-world-test/build-with-maven.py
     
   analysis:
