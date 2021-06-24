@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Compile-Run-Report
-          path: out
+          path: hello-world-test/out
           retention-days: 3
 
     
