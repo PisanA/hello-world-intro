@@ -28,9 +28,9 @@ jobs:
           java-version: 1.8
       - name: Build with Maven
         run: |
-          git clone https://github.com/pisanA/hello-world-test.git
+          git clone https://github.com/PisanA/hello-world-test.git
           ls -al
-          ./hello-world-test/build-with-maven.py
+    #      ./hello-world-test/build-with-maven.py
     
   analysis:
     name: CheckStyle
