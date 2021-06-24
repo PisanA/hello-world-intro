@@ -30,7 +30,7 @@ jobs:
         run: |
           git clone https://github.com/PisanA/hello-world-test.git
           ls -al
-    #      ./hello-world-test/build-with-maven.py
+          ./hello-world-test/build-with-maven.py
     
   analysis:
     name: CheckStyle
