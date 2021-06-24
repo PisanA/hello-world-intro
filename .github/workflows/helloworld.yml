@@ -35,6 +35,12 @@ jobs:
           ls -lR
           cd hello-world-test
           python3 build-with-maven.py
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Compile-Run-Report
+          path: out
+          retention-days: 3
 
     
   analysis:
