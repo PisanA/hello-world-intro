@@ -14,17 +14,19 @@
 ![image](https://user-images.githubusercontent.com/54456351/120840726-730fb780-c51f-11eb-843b-d8894afa67a0.png)
 5. Work on the .java file and until you complete
 -->
-Your first assignment in GitHub Classroom is to fix the error in the Hello World java file!
+Your first assignment in GitHub Classroom is to fix the error in the Hello, World! java file!
 
 1. Click on "HelloWorld.java" to see what is provided as your starter code. 
-2. Add your code in the "HelloWorld.java" and commit changes
-3. Check for bugs and suggestions in "Actions" ![image](https://user-images.githubusercontent.com/54456351/122830040-a0d55a00-d29c-11eb-8e7f-a73c1a56546d.png)
-4. Repeat step 3 and 4 until the assignment is completed
+2. Go back one page and download the code as a zip folder by clicking the green "Code" button and selecting "Download ZIP". 
+3. Open the HelloWorld.java file in your Java IDE (BlueJ, Eclipse, IntelliJ, jGRASP, etc.) and make your desired edits. 
+4. Upload your code by clicking the "Add File" button and drag-and-drop or select your HelloWorld.java file and commit the changes. 
+5. Check for test results, errors, and suggestions in "Actions" ![image](https://user-images.githubusercontent.com/54456351/122830040-a0d55a00-d29c-11eb-8e7f-a73c1a56546d.png)
+6. Repeat step 3 and 4 until the assignment is completed and no more errors are returned.
 
 ![image](https://user-images.githubusercontent.com/54456351/119812273-d3a65100-be9c-11eb-9c53-326b5fc460c3.png)
 
 After committing/uploading your Java files. Click "Actions" to see the report. <br>
-When committing, GitHub will ask you to enter a message. It helps to easily understand why a change has been made at a particular time and distinguish between each commission.<br>
+When committing, GitHub will ask you to enter a commit message. It helps to easily understand why a change has been made to a file at a particular time and distinguish between each commission.<br>
 ![image](https://user-images.githubusercontent.com/54456351/119812799-66df8680-be9d-11eb-8fec-24645619be13.png)
 <br>
 <br>
