@@ -68,7 +68,7 @@ jobs:
           # Change reporter level if you need [info,warning,error].
           # GitHub Status Check won't become failure with a warning.
           level: warning
-          #workdir: HelloWorld.java
+          workdir: HelloWorld.java
 
   misspell: # this checks spelling in comments
     name: misspell
@@ -81,4 +81,4 @@ jobs:
           reporter: github-check
           level: warning
           locale: "US"
-          #path: HelloWorld.java
+          path: HelloWorld.java
