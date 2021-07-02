@@ -81,4 +81,5 @@ jobs:
           reporter: github-check
           level: warning
           locale: "US"
+          pattern: '**.java'
           #path: HelloWorld.java
