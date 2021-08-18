@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/54456351/120840726-730fb780-c51f-11eb-843b-d8894afa67a0.png)
 5. Work on the .java file and until you complete
 -->
-Your first assignment in GitHub Classroom is to fix the error in the Hello, World! java file!
+This is your first assignment in GitHub Classroom.
 
 1. Click on "HelloWorld.java" to see what is provided as your starter code
 2. Copy the template into your HelloWorld.java file in your Java IDE (BlueJ, Eclipse, IntelliJ, jGRASP, etc.) and make your desired edits
