@@ -34,6 +34,13 @@ When committing, GitHub will ask you to enter a commit message. It helps to easi
 
 ## Action
 Once you're ready to test them, edit the template files and they will be tested using GitHub Actions. 
+
+You'll get 3 kinds of feedback:
+
+1. Checkstyle feedback on code style mistakes in the Google Java Style
+2. Misspell report on detected misspellings in your code and comments
+3. Unit tests by JUnit, testing if your functions are performing as expected
+
 This is the action page: <br>
 ![image](https://user-images.githubusercontent.com/54456351/119814197-fc2f4a80-be9e-11eb-86ad-00f6c5b5d238.png) <br>
 The workflow are your commissions from newest to latest. <br>
