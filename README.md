@@ -24,7 +24,6 @@ Your first assignment in GitHub Classroom is to fix the error in the Hello, Worl
 
 ![image](https://user-images.githubusercontent.com/54456351/119812273-d3a65100-be9c-11eb-9c53-326b5fc460c3.png)
 
-After committing/uploading your Java files. Click "Actions" to see the report. <br>
 When committing, GitHub will ask you to enter a commit message. It helps to easily understand why a change has been made to a file at a particular time and distinguish between each commission.<br>
 ![image](https://user-images.githubusercontent.com/54456351/119812799-66df8680-be9d-11eb-8fec-24645619be13.png)
 <br>
