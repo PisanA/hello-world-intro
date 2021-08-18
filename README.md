@@ -64,4 +64,9 @@ Scroll to the bottom and download the artifact to view your detailed test report
 Click "Compile-Run-Report" to download the report. 
 It will show your current score on the assignment based on the tests we've written. 
 
-![image](https://user-images.githubusercontent.com/54456351/129307490-b6f27859-9ea2-4b68-8712-9b211b827322.png)
+![image](https://user-images.githubusercontent.com/54456351/129307490-b6f27859-9ea2-4b68-8712-9b211b827322.png) <br>
+
+You will get the following information from the report:
+1. Compilation status to check for compilation errors
+2. Total score of the your current work
+3. Failed/Passed test cases with hints
