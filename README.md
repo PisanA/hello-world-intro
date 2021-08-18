@@ -47,40 +47,21 @@ The red circle means the workflow is failed. You can see your details in the rep
 The green circle means the workflow is passed, but you should check the reports to check your code style is good enough and any misspell occurs.<br>
 ![image](https://user-images.githubusercontent.com/54456351/119813818-95119600-be9e-11eb-82e5-d247541062cb.png) <br><br>
 
-### Test Report
-![image](https://user-images.githubusercontent.com/54456351/119812525-15cf9280-be9d-11eb-8125-f24d61ebd43b.png) <br>
-The Test Report shows the result of how many test cases that are passed, failed, or skipped.
-- Click "Test Report" for the report of test cases
-- Don't worry about "Build Step." It will be red if any test case failed.
-<br><br>
+## CheckStyle
+Click on the left sidebar on "checkstyle" to view the Checkstyle report. <br>
+![image](https://user-images.githubusercontent.com/54456351/129306692-6959b6b7-308c-452e-aa44-64fd21ee95de.png) <br>
+If you have any compilation errors, CheckStyle report will not be generated. Please view the JUnit Report and debug all errors first.
+For more detatils on the CheckStyle warning, you can view this website:  <a href="https://pisana.github.io/checkstyle-webpage/">checkstyle-webpage</a>
+ <br>
+If you don't see your warnings on the website, please fill this survey so that we can add them: <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1M4lW8zU0gfX2b0JHl3O0-vluhYhtCcvS2Ox0z3LDCwWEHg/viewform">New CheckStyle Warning</a> <br>
 
-The following is an example a Test Report with 3 failed tests.<br>
-![image](https://user-images.githubusercontent.com/54456351/120717148-e8c24780-c47b-11eb-8464-2a16b8391343.png) 
-<br>
-Several reasons are suggested for the test case's failure. After "expected" is the correct answer and after "but was" is your answer.<br>
-If you want to check the test case and see what methods it calls, you can see the test case and path in this line. 
-![image](https://user-images.githubusercontent.com/54456351/120717574-a3eae080-c47c-11eb-802a-7c779b649c17.png)
+## Misspell
+Click "misspell" to view found mispellings.
+![image](https://user-images.githubusercontent.com/54456351/129307048-27f9297e-b80c-4e16-b430-9923917aa2a3.png)
 
-<br><br>
-Let analyze this failed test.
-![image](https://user-images.githubusercontent.com/54456351/120717698-db598d00-c47c-11eb-8286-c52541d59de8.png) <br><br>
-This test case calls the main() method and receives different outputs than expected. <br>
-It expects "Hello, World!" but receives "Hello, World! " (with an extra space at the end). The extra space is the reason of this failure.
+## JUnit Report
+Scroll to the bottom and download the artifact to view your detailed test report. <br>
+Click "Compile-Run-Report" to download the report. 
+It will show your current score on the assignment based on the tests we've written. 
 
-<br><br>
-
-
-### Checkstyle
-
-![image](https://user-images.githubusercontent.com/54456351/119812559-1ec06400-be9d-11eb-907d-e1b71a97a447.png) <br>
-![image](https://user-images.githubusercontent.com/54456351/119814435-3f89b900-be9f-11eb-8578-2272566be21c.png) <br>
-
-Checkstyle is a tool for checking Java source code for adherence to the Google Java Style Guide.<br>
-Click "checkstyle" to view the report. The report should look like this:
-![image](https://user-images.githubusercontent.com/54456351/120709943-5ec1b100-c472-11eb-93a1-1aafa7de830a.png) <br>
-<br /> <br /> <br />
-You can access each code line violating the coding standard through "Findings(37)"
-![image](https://user-images.githubusercontent.com/54456351/120710983-b01e7000-c473-11eb-873d-e57b75aeab5c.png) <br>
-
-View <a href="https://pisana.github.io/checkstyle-webpage/
-">checkstyle-webpage</a> for some comments you might find in the report:
+![image](https://user-images.githubusercontent.com/54456351/129307490-b6f27859-9ea2-4b68-8712-9b211b827322.png)
