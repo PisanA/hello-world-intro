@@ -67,11 +67,20 @@ Click "misspell" to view found mispellings.
 ## JUnit Report
 Scroll to the bottom and download the artifact to view your detailed test report. <br>
 Click "Compile-Run-Report" to download the report. 
-It will show your current score on the assignment based on the tests we've written. 
+It is a zipped folder that will contain a test report and/or a build message file.  
 
 ![image](https://user-images.githubusercontent.com/54456351/129307490-b6f27859-9ea2-4b68-8712-9b211b827322.png) <br>
 
-You will get the following information from the report:
+You will get the following information in report.txt:
 1. Compilation status to check for compilation errors
 2. Total score of the your current work
 3. Failed/Passed test cases with hints
+
+## What my report.txt is very short with no score? 
+This means that there was an error when trying to run tests on your program. Your report.txt file may show some error messages 
+that were produced when trying to run our tests. Check to see if your code compiles in your IDE or on the commandline before reuploading.
+For more clues to the issue, look in the build.txt file in the zipped folder. 
+
+## What if there's no error messages in my report.txt?
+Look in the build.txt file to see build and compilation errors. Some programs can compile but fail to run in unit testing. 
+It may be failing due to tests being run on parts of the program that you have not implemented yet. 
